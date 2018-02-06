@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var db = mongoose.connect('mongodb://localhost/mhw');//；连接数据库
+var db = mongoose.connect('mongodb://www.merenguesss.cn:27017/mhw');//；连接数据库
 var Schema = mongoose.Schema;   //  创建模型
 var UserSchema = new Schema({
     name: String,
