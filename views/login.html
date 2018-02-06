@@ -87,9 +87,9 @@
             //发送ajax请求 使用post方式发送json字符串给后台login
             $.ajax({
                 type: "post",
-                url: "http://www.merenguesss.cn:3000/getWeaponList",
+                url: "http://localhost:3000/register",
                 dataType: "json",
-                data:{group: "GS"},
+                data:{ username: username, password: password },
                 success: function(data){
                     //接受返回的数据，前端判断采取的动作
                     console.log(data);
