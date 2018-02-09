@@ -6,7 +6,7 @@ var UserSchema = new Schema({
     password: String,
     logindate : Date
 }); //  定义了一个新的模型，但是此模式还未和users集合有关联
-var WeaponSchema = new Schema({
+var WeaponListSchema = new Schema({
     id: String,
     name: String,
     rare: String,
